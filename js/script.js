@@ -21,7 +21,12 @@ $(document).ready(function () {
 
     //Messagem Recebida
     conn.onmessage = function(e) {
-        console.log(e.data);
+        console.log(JSON.parse(e.data));
+        var dados = JSON.parse(e.data); //Dado em JSON
+        var messagem = dados.messagem;
+        var nome = dados.nome;
+
+        $("#chat").append('<p><b>'+nome+'</b>: '+messagem+'</p>');
     };
 
     //Error
