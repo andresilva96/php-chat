@@ -1,0 +1,15 @@
+{
+    "name": "andre/ratchet",
+    "authors": [
+        {
+            "name": "Andre Rodrigues",
+            "email": "andre.silva96@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    },
+    "require": {
+        "cboden/ratchet": "0.3.*"
+    }
+}

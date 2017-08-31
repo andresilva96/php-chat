@@ -1,0 +1,5 @@
+Liberar Telnet para CMD (Opicional):
+https://kinghost.com.br/wiki/artigo/como-liberar-o-uso-do-telnet-no-windows-10/
+
+Ratchet:
+http://socketo.me/docs/hello-world
